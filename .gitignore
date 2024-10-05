@@ -1,0 +1,29 @@
+# --- Frontend (Angular) ---
+dist
+tmp
+out-tsc
+node_modules
+.angular/
+coverage
+.nx
+
+# --- Backend (API - .NET) ---
+bin/
+obj/
+.vs/
+.idea/
+*.suo
+*.user
+*.backup
+
+# --- General ---
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log
+
+# --- IDE ---
+.vscode
+!.vscode/settings.json
