@@ -1,0 +1,15 @@
+@import './variables';
+@import './mixins';
+@import './reset';
+@import './utilities';
+@import './themes';
+
+body.light-theme {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark-theme {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

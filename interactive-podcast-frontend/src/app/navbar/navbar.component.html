@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <a class="navbar-logo" href="#">
+    <img src="../../assets/logo.png" alt="Logo" class="logo-img" />
+  </a>
+  <div class="nav-links flex">
+    <div class="nav-flex">
+      <fa-icon [icon]="faUser"></fa-icon>
+      <a class="nav-link" href="#"> Home </a>
+    </div>
+    <div class="nav-flex">
+      <fa-icon [icon]="faInfoCircle"></fa-icon>
+      <a class="nav-link" href="#"> About </a>
+    </div>
+    <div class="nav-flex">
+      <fa-icon [icon]="faMoon"></fa-icon>
+      <a class="nav-link" href="#" (click)="toggleTheme()"> Toggle Theme </a>
+    </div>
+  </div>
+</nav>

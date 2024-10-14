@@ -1,0 +1,47 @@
+@import '../../styles/mixins';
+
+.navbar {
+  @include flex(row, center, center);
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  margin-bottom: 50px;
+  padding: 4px;
+
+  .navbar-logo {
+    @include flex(row, center, center);
+    position: absolute;
+    margin-right: 40rem;
+    z-index: 1;
+    top: 3px;
+  }
+
+  .logo-img {
+    width: 150px;
+    height: auto;
+  }
+
+  .nav-links {
+    @include flex(row, center, center);
+    gap: 2rem;
+    z-index: 2;
+    margin-right: 10rem;
+
+    .nav-link {
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 1rem;
+
+      &:hover {
+        color: var(--primary-color-hover);
+      }
+    }
+  }
+
+  .nav-flex {
+    @include flex(column, center, center);
+  }
+
+  fa-icon {
+    font-size: 1.2rem;
+  }
+}
